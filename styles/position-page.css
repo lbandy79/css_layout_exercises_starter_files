@@ -1,5 +1,7 @@
-nav {
+.conatiner {
 	position: fixed;
+}
+nav {
 	text-align: left;
 	padding-right: 60px;
 	padding-left: 60px;
@@ -11,20 +13,33 @@ li {
 	display: inline;
 	float: left;
 	padding: 5px;
-
+	margin-top: 10px;
 }
-img {
+.cat {
 	float: left;
     border-radius: 50px;
     height: 50px;
     width: 50px;
+    margin-top: 5px;
 }
 .box {
 	border: 10px green dotted;
     height: 300px;
     width: 600px;
-    margin-left: auto;
+    margin-left: 300px;
     margin-top: 150px;
+    position: absolute;
+}
+.spacecat {
+	padding-left: 200px;
     position: relative;
-    margin-right: auto;
+}
+.spacedog {
+	margin-top: 300px;
+    position: absolute;
+    margin-left: 335px;
+}
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
 }
